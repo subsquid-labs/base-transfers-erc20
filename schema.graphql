@@ -1,0 +1,16 @@
+type Contract @entity {
+  id: ID!
+  deploymentHeight: Int! @index
+  deploymentTxn: String! @index
+  address: String! @index
+  isErc20: Boolean! @index
+  transfers: [Transfer!] @derivedFrom(field: "contract")
+}
+
+type Transfer @entity {
+  id: ID!
+  contract: Contract!
+  from: String! @index
+  to: String! @index
+  value: BigInt! @index
+}
