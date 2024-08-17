@@ -1,8 +1,8 @@
 [![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/subsquid-labs/base-transfers-erc20)
 
-# Minimal EVM squid
+# All ERC20 Transfers on Base
 
-This squid scrapes all ERC20 contract deployments on Ethereum and gets their Transfer events. See more examples of requesting data with squids on the [showcase page](https://docs.subsquid.io/evm-indexing/configuration/showcase) of SQD documentation.
+This squid scrapes all ERC20 contract deployments on Base and gets their Transfer events. See more examples of requesting data with squids on the [showcase page](https://docs.subsquid.io/evm-indexing/configuration/showcase) of SQD documentation.
 
 Dependencies: Node.js, Docker, Git.
 
